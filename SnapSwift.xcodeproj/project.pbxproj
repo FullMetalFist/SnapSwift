@@ -12,6 +12,9 @@
 		7C2C53051FA77BF5009F882F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2C53031FA77BF5009F882F /* Main.storyboard */; };
 		7C2C53071FA77BF5009F882F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C2C53061FA77BF5009F882F /* Assets.xcassets */; };
 		7C2C530A1FA77BF5009F882F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2C53081FA77BF5009F882F /* LaunchScreen.storyboard */; };
+		7C2C533C1FA77F7A009F882F /* SnapFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C533B1FA77F7A009F882F /* SnapFont.swift */; };
+		7C2C53411FA78630009F882F /* SnapColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C53401FA78630009F882F /* SnapColor.swift */; };
+		7C2C53441FA7871D009F882F /* SnapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C53431FA7871D009F882F /* SnapButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +65,9 @@
 		7C2C53371FA77C31009F882F /* TableViewBorder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableViewBorder@2x.png"; sourceTree = "<group>"; };
 		7C2C53381FA77C31009F882F /* TextField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextField.png; sourceTree = "<group>"; };
 		7C2C53391FA77C31009F882F /* TextField@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextField@2x.png"; sourceTree = "<group>"; };
+		7C2C533B1FA77F7A009F882F /* SnapFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SnapFont.swift; path = Fonts/SnapFont.swift; sourceTree = "<group>"; };
+		7C2C53401FA78630009F882F /* SnapColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapColor.swift; sourceTree = "<group>"; };
+		7C2C53431FA7871D009F882F /* SnapButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +102,13 @@
 			children = (
 				7C2C52FF1FA77BF5009F882F /* AppDelegate.swift */,
 				7C2C53011FA77BF5009F882F /* ViewController.swift */,
+				7C2C53421FA78702009F882F /* Buttons */,
+				7C2C533D1FA785F3009F882F /* Colors */,
+				7C2C533A1FA77F49009F882F /* Fonts */,
 				7C2C53031FA77BF5009F882F /* Main.storyboard */,
 				7C2C53061FA77BF5009F882F /* Assets.xcassets */,
 				7C2C53081FA77BF5009F882F /* LaunchScreen.storyboard */,
 				7C2C530B1FA77BF5009F882F /* Info.plist */,
-				7C2C53111FA77C14009F882F /* Action_Man.ttf */,
 				7C2C53121FA77C31009F882F /* Images */,
 			);
 			path = SnapSwift;
@@ -150,6 +158,31 @@
 				7C2C53391FA77C31009F882F /* TextField@2x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		7C2C533A1FA77F49009F882F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7C2C53111FA77C14009F882F /* Action_Man.ttf */,
+				7C2C533B1FA77F7A009F882F /* SnapFont.swift */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		7C2C533D1FA785F3009F882F /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				7C2C53401FA78630009F882F /* SnapColor.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		7C2C53421FA78702009F882F /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				7C2C53431FA7871D009F882F /* SnapButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +258,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C2C53021FA77BF5009F882F /* ViewController.swift in Sources */,
+				7C2C53441FA7871D009F882F /* SnapButton.swift in Sources */,
 				7C2C53001FA77BF5009F882F /* AppDelegate.swift in Sources */,
+				7C2C533C1FA77F7A009F882F /* SnapFont.swift in Sources */,
+				7C2C53411FA78630009F882F /* SnapColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

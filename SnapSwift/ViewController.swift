@@ -16,9 +16,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var pImageView: UIImageView!
     @IBOutlet weak var jokerImageView: UIImageView!
     
+    @IBOutlet weak var hostGame: UIButton!
+    @IBOutlet weak var joinGame: UIButton!
+    @IBOutlet weak var singlePlayer: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+//        hostGame.titleLabel?.font = UIFont.snapFontWithSize(size: 20.0)
+//        joinGame.titleLabel?.font = UIFont.snapFontWithSize(size: 20.0)
+//        singlePlayer.titleLabel?.font = UIFont.snapFontWithSize(size: 20.0)
+        hostGame.applySnapStyle()
     }
 
     override func didReceiveMemoryWarning() {
